@@ -1,3 +1,9 @@
+"""
+Generic function to read any CSV file and return contents of CSV file 
+in form of list of dictionary 
+
+"""
+
 def parse_headers(header_line):
     """
     Takes a line as input and returns a list of column headers.
